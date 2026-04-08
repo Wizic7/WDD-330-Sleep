@@ -1,33 +1,27 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Sleep Outside | Cart</title>
-
+    <title>Sleep Outside | Home</title>
     <link rel="stylesheet" href="/css/style.css" />
-
-    <script src="../js/cart.js" type="module"></script>
+    <script src="../js/orders.js" type="module"></script>
   </head>
 
   <body>
     <header class="divider" id="main-header"></header>
-
     <main class="divider">
-      <section class="products">
-        <h2>My Cart</h2>
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Total</th>
+            </thead>
+            <tbody  id="ordertable">
 
-        <ul class="product-list"></ul>
-        <div class="list-footer hide">
-          <a href="/checkout/index.html">Checkout</a>
-          <p class="list-total">Total:</p>
-        </div>
-      </section>
+            </tbody>
+        </table>
     </main>
-
     <footer id="main-footer"></footer>
   </body>
 </html>
